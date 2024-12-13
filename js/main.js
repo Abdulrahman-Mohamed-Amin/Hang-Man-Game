@@ -134,6 +134,7 @@ document.addEventListener("click" , (e) =>{
 
             setTimeout(()=>{
                 document.querySelector(".popup").remove()
+                window.location.reload()
             } , 3000)
     }
 })
